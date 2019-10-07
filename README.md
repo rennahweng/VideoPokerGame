@@ -2,7 +2,12 @@
 
 Welcome to Video Poker World!
 
-Game Rules (and Logics behind them):
+All codes are written in Java.
+To start the game, compile all the files and run Game.java.
+
+Before you start, make sure you read the followings game rules.
+
+# Game Rules
 
 -In PokerTester class, once Game g is created,
  a new Player p and a new Deck deck are also created.
@@ -11,7 +16,6 @@ Game Rules (and Logics behind them):
 -enter letter "y" from your keyboard to begin play.
 -OR enter "n" to end the game completely.
 -NO other strings are acceptable!!
-
 
 -Once you begin, choose your bet.
 -please choose a bet between 1 to 5, including 1 and 5.
@@ -28,7 +32,6 @@ Game Rules (and Logics behind them):
 -NOTE: The shuffled deck is also presented, but it's for the programmer's use.
        you can comment out the print line System.out.println(deck);
 
-
 -After the hand is presented to you,
  you are asked whether to exchange or not.
 -y for yes, n for no
@@ -37,7 +40,6 @@ Game Rules (and Logics behind them):
  for better combinations and thus better payouts.
 -However, you can only exchange once.
 
-
 -If you do not wish to exchange, enter n.
 -Then your hand will be evaluated and scored.
 -Your score is presented to you.
@@ -45,7 +47,6 @@ Game Rules (and Logics behind them):
 -Your bankroll will update based on the tokens you gain.
 -This round ended.
 -GO TO LINE 87.
-
 
 -If you do wish to exchange, enter y.
 -Choose how many cards you wish to exchange from your hand.
@@ -96,4 +97,5 @@ Game Rules (and Logics behind them):
         are all written as comments under those methods.
         Please take a look. Thanks.
 
-Thank you for playing!!!
+# Thank you for playing!!!
+
